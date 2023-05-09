@@ -1,0 +1,23 @@
+# openapi: 3.0.0
+# info:
+#   title: "Social App"
+#   description: "My First Social App at LCO - Yash"
+#   version: 1.0.1
+
+# servers:
+#   - url: https://social-app-pro-backend.cyclic.app/
+#     description: Main (production) server
+#   - url: http://localhost:4000/
+#     description: Local Host Version of our app
+
+openapi: 3.0.0
+info:
+  title: Social App
+  description: My First Social App at LCO - Yash
+  version: 1.0.1
+
+servers:
+  - url: https://social-app-pro-backend.cyclic.app/
+    description: Main (production) server
+  - url: http://localhost:4000/
+    description: Local Host Version of the app
